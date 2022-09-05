@@ -1,0 +1,134 @@
+CRITICAL - 2022-07-14 21:49:29 --> Undefined property: App\Controllers\DataAdmin::$M_informasi
+#0 A:\xampp\htdocs\app-sip\app\Controllers\DataAdmin.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'A:\\xampp\\htdocs...', 44, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAdmin->index()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAdmin))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-14 22:11:10 --> Trying to get property 'id' of non-object
+#0 A:\xampp\htdocs\app-sip\app\Views\v_dataAdmin\index.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'A:\\xampp\\htdocs...', 126, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(210): include('A:\\xampp\\htdocs...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_dataadmin/ind...', Array, true)
+#4 A:\xampp\htdocs\app-sip\app\Controllers\DataAdmin.php(44): view('v_dataadmin/ind...', Array)
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAdmin->index()
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAdmin))
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-14 22:11:14 --> Trying to get property 'id' of non-object
+#0 A:\xampp\htdocs\app-sip\app\Views\v_dataAdmin\index.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'A:\\xampp\\htdocs...', 126, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(210): include('A:\\xampp\\htdocs...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_dataadmin/ind...', Array, true)
+#4 A:\xampp\htdocs\app-sip\app\Controllers\DataAdmin.php(44): view('v_dataadmin/ind...', Array)
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAdmin->index()
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAdmin))
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-14 22:12:23 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$username
+#0 A:\xampp\htdocs\app-sip\app\Views\v_dataAdmin\index.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'A:\\xampp\\htdocs...', 158, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(210): include('A:\\xampp\\htdocs...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_dataadmin/ind...', Array, true)
+#4 A:\xampp\htdocs\app-sip\app\Controllers\DataAdmin.php(44): view('v_dataadmin/ind...', Array)
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAdmin->index()
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAdmin))
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-14 22:12:24 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$username
+#0 A:\xampp\htdocs\app-sip\app\Views\v_dataAdmin\index.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'A:\\xampp\\htdocs...', 158, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(210): include('A:\\xampp\\htdocs...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_dataadmin/ind...', Array, true)
+#4 A:\xampp\htdocs\app-sip\app\Controllers\DataAdmin.php(44): view('v_dataadmin/ind...', Array)
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAdmin->index()
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAdmin))
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-14 22:12:28 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$username
+#0 A:\xampp\htdocs\app-sip\app\Views\v_dataAdmin\index.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'A:\\xampp\\htdocs...', 158, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(210): include('A:\\xampp\\htdocs...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_dataadmin/ind...', Array, true)
+#4 A:\xampp\htdocs\app-sip\app\Controllers\DataAdmin.php(44): view('v_dataadmin/ind...', Array)
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAdmin->index()
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAdmin))
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-14 22:14:32 --> Call to undefined method App\Models\AdminModel::get_admin_by_id
+#0 A:\xampp\htdocs\app-sip\app\Controllers\DataAdmin.php(100): CodeIgniter\Model->__call('get_admin_by_id', Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAdmin->update_admin('25')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAdmin))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-14 22:15:34 --> Undefined variable: informasi_by_id
+#0 A:\xampp\htdocs\app-sip\app\Views\v_dataInformasi\update.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'A:\\xampp\\htdocs...', 33, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(210): include('A:\\xampp\\htdocs...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_dataInformasi...', Array, true)
+#4 A:\xampp\htdocs\app-sip\app\Controllers\DataAdmin.php(110): view('v_dataInformasi...', Array)
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAdmin->update_admin('28')
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAdmin))
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-14 22:16:51 --> Undefined variable: min
+#0 A:\xampp\htdocs\app-sip\app\Views\v_dataAdmin\index.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'A:\\xampp\\htdocs...', 116, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(210): include('A:\\xampp\\htdocs...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_dataadmin/ind...', Array, true)
+#4 A:\xampp\htdocs\app-sip\app\Controllers\DataAdmin.php(141): view('v_dataadmin/ind...', Array)
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAdmin->save_update_admin()
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAdmin))
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-14 22:17:42 --> Undefined index: admin
+#0 A:\xampp\htdocs\app-sip\app\Controllers\DataAdmin.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'A:\\xampp\\htdocs...', 141, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAdmin->save_update_admin()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAdmin))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-14 22:18:14 --> Undefined variable: db
+#0 A:\xampp\htdocs\app-sip\app\Controllers\DataAdmin.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'A:\\xampp\\htdocs...', 142, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAdmin->save_update_admin()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAdmin))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-14 22:27:19 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in A:\xampp\htdocs\app-sip\app\Controllers\DataAdmin.php on line 152
+#0 A:\xampp\htdocs\app-sip\app\Controllers\DataAdmin.php(152): CodeIgniter\HTTP\RedirectResponse->to('/dataadmin', Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAdmin->save_update_admin()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAdmin))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-14 22:56:43 --> syntax error, unexpected 'date' (T_STRING), expecting ';' or ','
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_batasUsulan/i...', Array, true)
+#2 A:\xampp\htdocs\app-sip\app\Controllers\SetBatasUsulan.php(32): view('v_batasUsulan/i...', Array)
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SetBatasUsulan->index()
+#4 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SetBatasUsulan))
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,273 @@
+ERROR - 2022-06-08 15:13:17 --> Error connecting to the database: Unknown database 'app-sipdb'
+CRITICAL - 2022-06-08 15:13:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'app-sipdb'
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 A:\xampp\htdocs\app-sip\app\Models\HomeModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#3 A:\xampp\htdocs\app-sip\app\Controllers\Home.php(27): App\Models\HomeModel->select_time()
+#4 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-08 03:32:28 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 03:32:29 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 03:36:20 --> Invalid file: v_dataAlurPengusulan/update.php
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_dataAlurPengu...')
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_dataAlurPengu...', Array, true)
+#2 A:\xampp\htdocs\app-sip\app\Controllers\DataAlurPengusulan.php(55): view('v_dataAlurPengu...', Array)
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAlurPengusulan->add_alur_pengusulan()
+#4 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAlurPengusulan))
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-08 03:37:05 --> Invalid file: v_dataAlurPengusulan/update.php
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_dataAlurPengu...')
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_dataAlurPengu...', Array, true)
+#2 A:\xampp\htdocs\app-sip\app\Controllers\DataAlurPengusulan.php(55): view('v_dataAlurPengu...', Array)
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAlurPengusulan->add_alur_pengusulan()
+#4 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAlurPengusulan))
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-08 03:37:08 --> Invalid file: v_dataAlurPengusulan/update.php
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_dataAlurPengu...')
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_dataAlurPengu...', Array, true)
+#2 A:\xampp\htdocs\app-sip\app\Controllers\DataAlurPengusulan.php(55): view('v_dataAlurPengu...', Array)
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAlurPengusulan->add_alur_pengusulan()
+#4 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAlurPengusulan))
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-08 20:02:41 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:02:42 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:02:48 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:02:48 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:02:48 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:02:49 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:02:49 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:02:49 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:02:49 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:03:08 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:03:08 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:03:08 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:03:08 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:03:08 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:03:10 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:03:12 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:03:12 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:03:12 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 20:03:18 --> Trying to access array offset on value of type null
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'A:\\xampp\\htdocs...', 64, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-08 20:20:03 --> Unknown column 'tbl_detail_usulan.formasi_id' in 'on clause'
+CRITICAL - 2022-06-08 20:20:03 --> Unknown column 'tbl_detail_usulan.formasi_id' in 'on clause'
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tbl_...', 0)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbl_...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbl_...')
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_...', Array, false)
+#4 A:\xampp\htdocs\app-sip\app\Models\UsulanModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 A:\xampp\htdocs\app-sip\app\Controllers\DataUsulan.php(45): App\Models\UsulanModel->getDetailUsulan('U-CB-22')
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUsulan->detail_usulan('U-CB-22')
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUsulan))
+#8 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-08 20:20:15 --> Unknown column 'tbl_detail_usulan.formasi_id' in 'on clause'
+CRITICAL - 2022-06-08 20:20:15 --> Unknown column 'tbl_detail_usulan.formasi_id' in 'on clause'
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tbl_...', 0)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbl_...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbl_...')
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_...', Array, false)
+#4 A:\xampp\htdocs\app-sip\app\Models\UsulanModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 A:\xampp\htdocs\app-sip\app\Controllers\DataUsulan.php(45): App\Models\UsulanModel->getDetailUsulan('U-CB-22')
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUsulan->detail_usulan('U-CB-22')
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUsulan))
+#8 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-08 20:20:31 --> Unknown column 'tbl_detail_usulan.formasi_id' in 'on clause'
+CRITICAL - 2022-06-08 20:20:31 --> Unknown column 'tbl_detail_usulan.formasi_id' in 'on clause'
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tbl_...', 0)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tbl_...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tbl_...')
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *, `tbl_...', Array, false)
+#4 A:\xampp\htdocs\app-sip\app\Models\UsulanModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 A:\xampp\htdocs\app-sip\app\Controllers\DataUsulan.php(45): App\Models\UsulanModel->getDetailUsulan('U-CB-22')
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUsulan->detail_usulan('U-CB-22')
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUsulan))
+#8 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-06-08 20:21:13 --> Invalid file: v_dataAlurPengusulan/update.php
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_dataAlurPengu...')
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_dataAlurPengu...', Array, true)
+#2 A:\xampp\htdocs\app-sip\app\Controllers\DataAlurPengusulan.php(55): view('v_dataAlurPengu...', Array)
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAlurPengusulan->add_alur_pengusulan()
+#4 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAlurPengusulan))
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-08 20:21:17 --> Invalid file: v_dataAlurPengusulan/update.php
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_dataAlurPengu...')
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_dataAlurPengu...', Array, true)
+#2 A:\xampp\htdocs\app-sip\app\Controllers\DataAlurPengusulan.php(55): view('v_dataAlurPengu...', Array)
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAlurPengusulan->add_alur_pengusulan()
+#4 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAlurPengusulan))
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#8 {main}

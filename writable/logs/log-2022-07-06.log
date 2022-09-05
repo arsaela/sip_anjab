@@ -1,0 +1,50 @@
+ERROR - 2022-07-06 01:41:26 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-07-06 01:41:26 --> Unknown column 'updated_at' in 'field list'
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_bat...', 0)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_bat...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_bat...')
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_bat...', Array, false)
+#4 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->update('1', Array)
+#8 A:\xampp\htdocs\app-sip\app\Controllers\SetBatasUsulan.php(39): CodeIgniter\BaseModel->save(Array)
+#9 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SetBatasUsulan->update('1')
+#10 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SetBatasUsulan))
+#11 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-07-06 02:52:19 --> syntax error, unexpected '<<' (T_SL), expecting function (T_FUNCTION) or const (T_CONST)
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('dataadmin')
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('dataadmin')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-06 02:52:21 --> syntax error, unexpected '<<' (T_SL), expecting function (T_FUNCTION) or const (T_CONST)
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('dataadmin')
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('dataadmin')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-06 02:55:03 --> Cannot declare class App\Controllers\DataAdmin1, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-07-06 03:08:32 --> Duplicate entry '' for key 'username'
+CRITICAL - 2022-07-06 03:08:32 --> Duplicate entry '' for key 'username'
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 A:\xampp\htdocs\app-sip\app\Models\AdminModel.php(67): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 A:\xampp\htdocs\app-sip\app\Controllers\DataAdmin.php(108): App\Models\AdminModel->save_admin_in_admin(Array)
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAdmin->add()
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAdmin))
+#8 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#11 {main}

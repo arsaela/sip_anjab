@@ -1,0 +1,15 @@
+CRITICAL - 2022-08-04 00:53:16 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-04 00:53:27 --> Undefined index: 
+#0 A:\xampp\htdocs\app-sip\app\Views\v_datausulan_petugas\index.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'A:\\xampp\\htdocs...', 124, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(210): include('A:\\xampp\\htdocs...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_datausulan_pe...', Array, true)
+#4 A:\xampp\htdocs\app-sip\app\Controllers\Opd\DataUsulan.php(66): view('v_datausulan_pe...', Array)
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opd\DataUsulan->index()
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opd\DataUsulan))
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#10 {main}

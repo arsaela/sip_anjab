@@ -1,0 +1,54 @@
+CRITICAL - 2022-09-01 01:18:40 --> Undefined offset: 0
+#0 A:\xampp\htdocs\app-sip\app\Views\v_dataUsulan\detail_data_usulan.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'A:\\xampp\\htdocs...', 42, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(210): include('A:\\xampp\\htdocs...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_dataUsulan/de...', Array, true)
+#4 A:\xampp\htdocs\app-sip\app\Controllers\DataUsulan.php(49): view('v_dataUsulan/de...', Array)
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUsulan->detail_usulan('U-IH-22')
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUsulan))
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-09-01 01:24:44 --> Duplicate entry 'HU-IH02000000-3600120-22' for key 'PRIMARY'
+CRITICAL - 2022-09-01 01:24:44 --> Duplicate entry 'HU-IH02000000-3600120-22' for key 'PRIMARY'
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 A:\xampp\htdocs\app-sip\app\Models\Opd\UsulanOPDModel.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 A:\xampp\htdocs\app-sip\app\Controllers\Opd\DataUsulan.php(99): App\Models\Opd\UsulanOPDModel->input_history_usulan_opd(Array)
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opd\DataUsulan->inputusulanopd()
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opd\DataUsulan))
+#8 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-01 02:12:28 --> Duplicate entry 'HU-IH04000000-5010-22' for key 'PRIMARY'
+CRITICAL - 2022-09-01 02:12:28 --> Duplicate entry 'HU-IH04000000-5010-22' for key 'PRIMARY'
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 A:\xampp\htdocs\app-sip\app\Models\Opd\UsulanOPDModel.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 A:\xampp\htdocs\app-sip\app\Controllers\Opd\DataUsulan.php(99): App\Models\Opd\UsulanOPDModel->input_history_usulan_opd(Array)
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opd\DataUsulan->inputusulanopd()
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opd\DataUsulan))
+#8 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-09-01 23:18:21 --> Duplicate entry 'U-IH-22' for key 'PRIMARY'
+CRITICAL - 2022-09-01 23:18:21 --> Duplicate entry 'U-IH-22' for key 'PRIMARY'
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 A:\xampp\htdocs\app-sip\app\Models\Opd\UsulanOPDModel.php(238): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 A:\xampp\htdocs\app-sip\app\Controllers\Opd\DataUsulan.php(229): App\Models\Opd\UsulanOPDModel->aksi_kirim_usulan_opd(Array)
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opd\DataUsulan->aksi_kirimdatausulanopd('IH')
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opd\DataUsulan))
+#8 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#11 {main}

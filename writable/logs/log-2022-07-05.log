@@ -1,0 +1,14 @@
+ERROR - 2022-07-05 23:57:47 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-07-05 23:57:47 --> Unknown column 'id' in 'where clause'
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_alu...', 0)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_alu...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_alu...')
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_alu...', Array, false)
+#4 A:\xampp\htdocs\app-sip\app\Models\AlurPengusulanModel.php(58): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 A:\xampp\htdocs\app-sip\app\Controllers\DataAlurPengusulan.php(272): App\Models\AlurPengusulanModel->edit_data('6', Array)
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAlurPengusulan->edit_save_alur_pengusulan()
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAlurPengusulan))
+#8 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#11 {main}

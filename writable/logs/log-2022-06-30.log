@@ -1,0 +1,12 @@
+CRITICAL - 2022-06-30 20:26:37 --> Undefined variable: msg
+#0 A:\xampp\htdocs\app-sip\app\Views\v_dataAlurPengusulan\add.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'A:\\xampp\\htdocs...', 46, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(210): include('A:\\xampp\\htdocs...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_dataAlurPengu...', Array, true)
+#4 A:\xampp\htdocs\app-sip\app\Controllers\DataAlurPengusulan.php(59): view('v_dataAlurPengu...', Array)
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataAlurPengusulan->add_alur_pengusulan()
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAlurPengusulan))
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#10 {main}

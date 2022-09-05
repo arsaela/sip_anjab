@@ -1,0 +1,36 @@
+CRITICAL - 2022-08-23 00:28:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::count()
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Opd\DataUsulan.php(72): App\Models\Opd\UsulanOPDModel->cekStatusKirimUsulan('CB', '2022')
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opd\DataUsulan->index()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opd\DataUsulan))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-08-23 00:29:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::count()
+#0 A:\xampp\htdocs\app-sip\app\Controllers\Opd\DataUsulan.php(72): App\Models\Opd\UsulanOPDModel->cekStatusKirimUsulan('CB', '2022')
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Opd\DataUsulan->index()
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Opd\DataUsulan))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-08-23 01:37:06 --> Undefined offset: 0
+#0 A:\xampp\htdocs\app-sip\app\Views\v_dataUsulan\detail_data_usulan.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'A:\\xampp\\htdocs...', 42, Array)
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(210): include('A:\\xampp\\htdocs...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('v_dataUsulan/de...', Array, true)
+#4 A:\xampp\htdocs\app-sip\app\Controllers\DataUsulan.php(49): view('v_dataUsulan/de...', Array)
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUsulan->detail_usulan('U-CB05010000-51...')
+#6 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUsulan))
+#7 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-23 01:41:21 --> syntax error, unexpected ';', expecting ')'
+#0 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('DataUsulan/deta...')
+#1 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('DataUsulan/deta...')
+#2 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 A:\xampp\htdocs\app-sip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 A:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('A:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,14 @@
+CRITICAL - 2022-08-12 02:05:15 --> Cache unable to write to D:\xampp\htdocs\app-sip\writable\cache/.
+#0 D:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Cache\Handlers\FileHandler.php(61): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Cache\CacheFactory.php(60): CodeIgniter\Cache\Handlers\FileHandler->__construct(Object(Config\Cache))
+#2 D:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Config\Services.php(106): CodeIgniter\Cache\CacheFactory::getHandler(Object(Config\Cache))
+#3 D:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#4 D:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#5 D:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Config\Services.php(101): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#6 D:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::cache()
+#7 D:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\Common.php(67): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#8 D:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(604): cache()
+#9 D:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#10 D:\xampp\htdocs\app-sip\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\app-sip\spark(63): CodeIgniter\CLI\Console->run()
+#12 {main}

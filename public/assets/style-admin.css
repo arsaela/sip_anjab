@@ -1,0 +1,65 @@
+p.bg_status_pending {
+    color: #fff;
+    background-color: #fd7e14;
+    border-color: #fd7e14;
+    box-shadow: none;
+    padding:0.375rem 0.75rem;
+}
+
+p.bg_status_approve {
+    color: #fff;
+    background-color: #0f91c3;
+    border-color: #28a745;
+    box-shadow: none;
+    padding:0.375rem 0.75rem;
+}
+
+a.btn.btn-lg.btn-primary.disabled.status_primaryku {
+    background-color: #0f91c3 !important;
+    color: #fff;
+    box-shadow: none;
+    padding: 0.375rem 0.75rem;
+}
+
+p.bg_status_reject {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    box-shadow: none;
+    padding:0.375rem 0.75rem;
+}
+
+p.bg_status_belumverifikasi{
+    color: #fff;
+    background-color: #830909;
+    border-color: #830909;
+    box-shadow: none;
+    padding:0.375rem 0.75rem;
+}
+
+.btn_detail_usulan {
+        margin-bottom: 5px;
+}
+
+.nav-sidebar .menu-open>.nav-link i.right {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(90deg);
+}
+
+ label#jumlah_usulan_formasi-error {
+    color: red !important;
+    background-color: #FFF;
+  }
+
+  label .error {
+    color: red !important;
+    background-color: #FFF;
+  }
+
+    p.bg_status_belumverifikasi {
+    color: #fff;
+    background-color: #bf9705 !important;
+    border-color: #830909;
+    box-shadow: none;
+    padding: 0.375rem 0.75rem;
+}
